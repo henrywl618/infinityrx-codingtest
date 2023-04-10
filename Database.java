@@ -9,5 +9,7 @@ public class Database {
         people.remove("Henry");
         people.add( new Row("Valerie", 5.3, 125, "Blue"));
         people.print();
+        people.sort();
+        people.print();
     }
 }
